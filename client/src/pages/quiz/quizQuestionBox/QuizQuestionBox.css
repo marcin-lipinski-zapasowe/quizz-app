@@ -1,0 +1,68 @@
+.question-content {
+    height: 65% !important;
+    width: 80% !important;
+    border-radius: 10px !important;
+    position: relative !important;
+    padding: 1.5rem 1rem !important;
+    text-align: center !important;
+}
+
+.question-content > .textarea {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 20% !important;
+    max-height: 30% !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    text-align: center;
+    outline: 0px solid transparent;
+    line-height: 1em;
+}
+
+.question-content > .textarea.ghost {
+    color: #8e8e8e;
+    position: absolute;
+    width: calc(100% - 2rem);
+    top: 1.5rem;
+}
+
+.question-content > div {
+    position: relative !important;
+    height: 70% !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+.question-content > div > img {
+    position: relative !important;
+    margin: auto !important;
+    border-radius: 10px !important;
+    height: 100% !important;
+}
+
+.question-content > div > button {
+    position: absolute !important;
+    width: 30px !important;
+    top: calc(50% - 15px) !important;
+    margin-left: 3% !important;
+    padding: 0 !important;
+    aspect-ratio: 1/1;
+    color: black !important;
+    border: black 3px solid !important;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    transition: all 0.15s linear !important;
+}
+
+.question-content > div > button > i{
+    margin: 0 !important;
+}
+
+.question-content > div > button:hover{
+    background-color: #0D1B2A !important;
+    color: white !important;
+    cursor:pointer !important;
+}

@@ -1,0 +1,138 @@
+.public-quizees-page > .quizzes-preview > .result-area{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div{
+    width: 45%;
+    height: 45%;
+    margin-left: calc(10%/3);
+    margin-top: 2.5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    /* border: 2px solid transparent; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    color: #0D1B2A;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > *{
+    /* padding: 5px; */
+    padding-top: 0;
+    font-size: 1.4rem;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div:hover {
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 2px solid rgb(243, 194, 35); */
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .title{
+    height: calc(100%/12 * 3);
+    font-size: 1.5rem;
+}
+
+.sub-comp-title{
+    /* border-radius: 5px;
+    height: 20px !important;
+    width: 110px !important;
+    background-color: #0D1B2A;
+    border-bottom: 1px solid black;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px; */
+    border-radius: 15px 15px 0 0;
+    height: 20px !important;
+    width: 100% !important;
+    background-color: #415A77;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .author{
+    height: calc(100%/12 * 2);
+    font-size: 1.4rem;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .description-action {
+    height: calc(100%/12 * 7);
+    display: flex;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .description-action > .description{
+    height: 100%;
+    width: 65%;
+    font-size: 1.4rem;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .description-action > .description > :last-child{
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    height: calc(100% - 25px);
+    padding: 5px 10px 5px 10px;
+}
+
+.public-quizees-page > .quizzes-preview > .result-area > div > .description-action > .actions{
+    height: calc(100% - 5px);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.actions > * {
+    width: 80%;
+    height: 15%;
+    text-align: center;
+}
+
+.actions > button {
+    background-color: #1B263B  !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.actions > button:hover {
+    background-color: #0D1B2A !important;
+    cursor: pointer;
+}
+
+.see-opinions-button > span {
+    color: rgb(243, 194, 35);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-right: 2px;
+}
+
+.add-to-saved-button > span {
+    margin-right: 3px;
+    font-size: 1.2rem;
+}
+
+.add-to-saved-button > .save:hover{
+    color: #8C1C13
+}
+
+.add-to-saved-button > .saved {
+    color: #8C1C13
+}

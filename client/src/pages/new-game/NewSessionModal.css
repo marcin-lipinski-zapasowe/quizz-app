@@ -1,0 +1,233 @@
+.new-session-modal {
+    box-shadow: 0px 0px 3px 1px rgb(63, 63, 63);
+    background-color: #0D1B2A;
+    border-radius: 20px !important;
+    height: 70vh;
+    width: 40vw;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.new-session-modal > .sticky-bar {
+    height: 4.5%;
+    background-color: #011224;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.new-session-modal > .sticky-bar > button {
+    color: rgb(255, 255, 255, 0.3);
+    font-size: 1.3rem;
+    padding: 0;
+    background-color: transparent !important;
+    border: none !important;
+    height: 100%;
+    transition: all 0.1s linear;
+}
+
+.new-session-modal > .sticky-bar > button:hover {
+    color: rgb(255, 255, 255, 1) !important;
+    cursor: pointer;
+}
+
+.new-session-modal > header {
+    color: white !important;
+    font-size: 1.7rem !important;
+    text-align: center !important;
+    height: 5%;
+    margin: 15px 5% 0 5%;
+}
+
+.new-session-modal > .divider {
+    border-bottom: 1px solid white;
+    margin: 0 5% !important;
+}
+
+.new-session-settings {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 15px 5% 15px 5%;
+    height: 75%;
+}
+
+.form-checkbox {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    color: white !important;
+    font-size: 1.4rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 5%;
+}
+
+.correct-answer-checkbox {
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    aspect-ratio: 1/1;
+    outline: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.correct-answer-checkbox:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, .05) !important;
+}
+
+
+.correct-answer-checkbox.active {
+    background-color: rgb(78, 139, 81)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct-answer-checkbox.active::before {
+    position: absolute;
+    color: white !important;
+    font-size: 1rem;
+    content: "\2714" !important;
+}
+
+.correct-answer-checkbox.active:hover {
+    background-color: rgb(14, 122, 19)!important;
+}
+
+.new-session-settings > .isMaxParticipantsNumber {
+    width: 100%;
+    height: 5%;
+}
+
+.new-session-settings > .isMaxParticipantsNumber > span {
+    width: 70%;
+}
+
+.new-session-settings > .isMaxParticipantsNumber > input {
+    width: 10%;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px;
+    height: 100% !important;
+    text-align: center;
+    transition: all 0.2s linear;
+    outline: none;
+}
+
+.new-session-settings > .isMaxParticipantsNumber > input.active {
+    background-color: white !important;
+}
+
+
+.new-session-settings > .sendEmailInvitations {
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.new-session-settings > .sendEmailInvitations > button {
+    width: 5%;
+    border-radius: 0 10px 10px 0;
+    height: 30px !important;
+    outline: none !important;
+    border: none !important;
+    border-bottom: solid 2px !important;
+    border-color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(247, 203, 161, 0.5) !important;
+    cursor: default;
+}
+
+.new-session-settings > .sendEmailInvitations > button.active {
+    color: rgba(255, 255, 255, 1);
+    background-color: #DB995A !important; 
+}
+
+.new-session-settings > .sendEmailInvitations > button.active:hover {
+    cursor: pointer;
+}
+
+.new-session-settings > .sendEmailInvitations > input {
+    display: block;
+    width: 40%;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px 0 0 10px;
+    height: 30px !important;
+    text-align: center;
+    transition: all 0.2s linear;
+    outline: none;
+}
+
+.new-session-settings > .sendEmailInvitations > input.active {
+    background-color: white !important;
+}
+
+.email-list {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.email-list-element {
+    background-color: #415A77;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.email-list-element > button {
+    width: 20px !important;
+    margin-left: 10px;
+    border-radius: 0 10px 10px 0;
+    height: 30px !important;
+    outline: none !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 1);
+    background-color: #DB995A !important;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+}
+
+.new-session-modal > :last-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-session-button {
+    border: none;
+    width: 20% !important;
+    border-radius: 15px !important;
+    color: #011224 !important;
+    font-size: 1.5rem !important;
+    background-color: #E0E1DD !important;
+}
+
+.create-session-button:hover {
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #DB995A !important;
+}

@@ -1,0 +1,55 @@
+.public-quizees-page > .quizzes-preview > .search-bar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    padding: 0 calc(10%/3);
+    align-items: end;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.public-quizees-page > .quizzes-preview > .search-bar > input{
+    width: calc(50% - 10%/6);
+    margin-right: calc(10%/3);
+    outline: none;
+    border: 2px solid white !important;
+    border-radius: 15px;
+    height: 50%;
+    padding-left: 15px;
+    color: white !important;
+}
+
+.public-quizees-page > .quizzes-preview > .search-bar > div{
+    width: calc(10%);
+    height: 50%;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 15px 0 0 15px;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.public-quizees-page > .quizzes-preview > .search-bar > select {
+    width: calc(35%);
+    outline: none;
+    border: 2px solid white !important;
+    height: 50%;
+    padding-left: 10px;
+}
+
+.public-quizees-page > .quizzes-preview > .search-bar > button {
+    outline: none;
+    border: 2px solid white !important;
+    border-radius: 15px;
+    height: 50%;
+    text-align: center !important;
+    color: white !important;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

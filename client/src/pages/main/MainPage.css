@@ -1,0 +1,28 @@
+.main-segment {
+    height: 75vh !important;
+    margin-top: 10vh !important;
+    width: 30vw !important;
+    margin-left: 35vw !important;
+    background-color: #ffffff !important;
+    border-radius: 20px !important;
+    padding: 2% !important;
+    position: relative !important;
+}
+
+.change-form-button {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: transparent !important;
+    color: #0D1B2A !important;
+}
+
+.change-form-button a {
+    color: #487eb8 !important;
+    cursor: pointer;
+}
+
+body {
+    overflow-y: hidden !important;
+}

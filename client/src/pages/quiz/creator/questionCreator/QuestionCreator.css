@@ -1,0 +1,50 @@
+.quiz-create-main {
+    position: absolute !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    width: 86% !important;
+    margin: 0 !important;
+    margin-top: -10vh !important;
+    border-radius: 0 20px 20px 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    scroll-behavior: smooth !important;
+    overflow-y: hidden !important;
+    height: 100vh !important;
+    padding-top: 10vh !important;
+    left: 15% !important;
+    outline: none !important;
+}
+
+.quiz-create-main-elem {
+    position: relative !important;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    width: 100% !important;
+    bottom: 10vh !important; 
+    height: 90vh !important;
+    overflow-y: hidden !important;
+    border-radius: 0 20px 20px 0 !important;
+    margin-top: 100px !important;
+    padding: 0 !important;
+    padding-top: 10vh !important;
+    background-color: transparent !important;
+}
+
+.quiz-create-main-elem-son {
+    position: relative !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    height: 80vh !important;
+    overflow-y: scroll !important;
+    border-radius: 0 20px 20px 0 !important;
+    margin: 0 !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.quiz-create-main-elem#general {
+    margin: 0 !important;
+}

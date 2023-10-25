@@ -1,0 +1,77 @@
+.public-quizees-page > .arrow-left, 
+.public-quizees-page > .arrow-right {
+    height: 75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.public-quizees-page > .arrow-left, 
+.public-quizees-page > .arrow-right {
+    width: 20%;
+    text-align: center;
+}
+
+.change-page-button {
+    height: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.change-page-button.active {
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.public-quizees-page > .arrow-left > div,
+.public-quizees-page > .arrow-right > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.public-quizees-page > .arrow-left > div {
+    padding-left: 30%;
+}
+
+.public-quizees-page > .arrow-right > div {
+    padding-right: 30%;
+}
+
+.change-page-button::before {
+    font-size: 5.5rem;
+    position: absolute;
+    top: 38%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.arrow-left > div > .change-page-button::before {
+    content: "\2039";
+}
+
+.arrow-right > div > .change-page-button::before {
+    content: "\203A";
+}
+
+.arrow-left > div > .change-page-button.double::before {
+    content: "\00AB";
+}
+
+.arrow-right > div > .change-page-button.double::before {
+    content: "\00BB";
+}
+
+
+.change-page-button.active:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, .05) !important;
+    height: 73px;
+}

@@ -1,0 +1,76 @@
+.join-session-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.join-session-page > header {
+    height: 30%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.join-session-page > div {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.join-session-page > div > img {
+    height: 250px;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+}
+
+.join-session-page > div > input {
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 5px;
+    width: 15%;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.join-session-page > div > input:focus {
+    transform: scale(1.05);
+}
+
+.join-session-page > div > * {
+    margin-bottom: 20px;
+}
+
+.join-session-page > div > button {
+    padding: 5px;
+    border: none;
+    width: 15% !important;
+    border-radius: 10px !important;
+    color: #011224 !important;
+    font-size: 2rem !important;
+    background-color: #E0E1DD !important;
+}
+
+.join-session-page > div > button:hover {
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #DB995A !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.join-session-page > div > input::-webkit-outer-spin-button,
+.join-session-page > div > input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.join-session-page > div > input[type=number] {
+    -moz-appearance: textfield;
+}

@@ -1,0 +1,25 @@
+.quiz-answer-box {
+    background-color: white !important;
+    margin: 0px !important;
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 5px !important;
+    height: calc(50% - 10px) !important;
+}
+
+.quiz-answer-box > span {
+    padding: 7px 20px;
+    position: absolute;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    resize: none;
+    font-size: 1.5rem;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    text-align: center;
+    margin-top: 15px;
+}

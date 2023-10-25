@@ -1,0 +1,106 @@
+.home-column {
+    background-color: transparent !important;
+    border: none;
+    border-radius: 20px !important;
+    padding: 10px !important;
+    aspect-ratio: 1/1 !important;
+    width: calc(25%) !important;
+    color: #E0E1DD !important;
+    transition: all 0.2s linear !important;
+}
+
+.kurła {
+    background-color: rgb(255, 255, 255, 0.3) !important;
+    border: transparent 10px solid;
+    border-radius: 20px !important;
+    padding: 5px !important;
+    aspect-ratio: 1/1 !important;
+    width: calc(25%) !important;
+    color: #0D1B2A !important;
+    width: 100% !important;
+    height: 100% !important;
+    transition: background-color .2s ease-in-out, padding .2s ease-in-out !important;
+}
+
+.half-kafel-photo {
+    position: relative;
+    width: 50% !important;
+    margin-left: -10% !important;
+    margin-top: 40% !important;
+}
+
+.home-column:hover {
+    padding: 15px !important;
+}
+
+.kurła:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.home-row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.home-grid {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    color: rgb(238, 238, 238) !important;
+    width: 70vw !important;
+    margin-left: 15vw !important;
+    background-color: transparent !important;
+    border-radius: 20px !important;
+    padding: 1% 2% 2% 2% !important;
+    position: relative !important;
+}
+
+#logout-button {
+    position: relative;
+    left: 95% !important;
+    background-color: transparent !important;
+    color: #E0E1DD !important;
+    border: none !important;
+}
+
+.menu-icon {
+    color: #0D1B2A !important;
+}
+
+.kafel-photo {
+    width: 70% !important;
+    margin-left: 15% !important;
+    margin-top: 5% !important;
+}
+
+.welcome {
+    background-color: transparent !important;
+    color: #E0E1DD !important;
+    font-size: xx-large !important;
+    line-height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-weight: 1000 !important;
+    margin: 5vh 0 0 17.7vw !important;
+    width: 70vw !important;
+    padding: 0% !important;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu-cont {
+    background-color: transparent !important;
+}
+
+.profile-photo-home {
+    display: block;
+    border-radius: 100rem;
+    border: black 5px solid !important;
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    margin-right: 2%;
+    background-color: white !important;
+}

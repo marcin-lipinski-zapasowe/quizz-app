@@ -1,0 +1,142 @@
+.quiz-create-segment {
+    height: 80vh !important;
+    margin-top: 10vh !important;
+    width: 85vw !important;
+    margin-left: 7.5vw !important;
+    background-color: transparent !important;
+    border-radius: 20px !important;
+    padding: 0 !important;
+    position: relative !important;
+    display: flex !important;
+}
+
+.quiz-create-menu {
+    padding-top: 1% !important;
+    padding-left: 1.5% !important;
+    height: 80vh !important;
+    max-height: 80vh !important;
+    border-radius: 20px 0 0 20px !important;
+    border-right: solid 1px rgba(37, 37, 37, 0.705) !important;
+    width: 15% !important;
+    background-color: #ffffff !important;
+    position: relative !important;
+}
+
+.quiz-create-menu > .menu-elements {
+    overflow-y: scroll !important;
+    height: 90% !important;
+}
+
+.quiz-create-menu > .menu-elements > .item {
+    cursor: pointer !important;
+    width: 95% !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 3px !important;
+    transition: all .3s linear !important;
+    background-color: #0D1B2A !important;
+    border-radius: 1px !important;
+    border: black 1px solid;
+    margin-bottom: 10px !important;
+    transition: all .2s linear !important;
+}
+
+.add-question-button {
+    color: black !important;
+    background-color: transparent !important;
+    transition: all .3s linear !important;
+    font-size: 1rem;
+    position: relative !important;
+    height: 8% !important;
+}
+
+.add-question-button > .button {
+    color: black !important;
+    border: black 3px solid !important;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    transition: all 0.15s linear !important;
+    position: absolute !important;
+    width: 30px !important;
+    aspect-ratio: 1/1 !important;
+    left: calc(47.5% - 15px) !important;
+    padding: 0 !important;
+    top: 10px !important
+}
+
+.add-question-button > .button:hover {
+    background-color: #0D1B2A !important;
+    color: white !important;
+}
+
+.quiz-create-menu > .menu-elements > .active.item {
+    background-color: #ce8d50 !important;
+}
+
+.quiz-create-menu > .menu-elements > .item:hover{
+    background-color: #ce8d50 !important;
+    padding: 3px 0 3px 0 !important;
+}
+
+.quiz-create-menu > .menu-elements > .item > .header {
+    display: inline-block !important;
+    width: 80% !important;
+    padding: 5px !important;
+    font-size: 1rem !important;
+    text-wrap: nowrap !important;
+    color: white !important;
+    background-color: transparent !important;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+
+.quiz-create-menu > .menu-elements > .item > .button {
+    margin: 0 !important;
+    display: inline-block !important;
+    width: 20% !important;
+    color: gray !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 13px !important;
+    transition: all .3s linear !important;
+}
+
+.quiz-create-menu > .menu-elements > .item > .button:hover {
+    color: white !important;
+}
+
+.quiz-create-menu > .menu-elements > .divider {
+    width: 95% !important;
+    border-color: black !important;
+    border-top: none !important;
+}
+
+
+
+.quiz-create-buttons {
+    display: flex !important;
+    width: 90% !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-shadow: none !important;
+    border: none !important;
+    bottom: 0 !important;
+    height: 10% !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    border-top: black 1px solid !important;
+    border-radius: 0 !important;
+}
+
+.quiz-create-buttons :first-child {
+    margin: 0 !important;
+    margin-right: 5% !important;
+}
+
+.quiz-create-buttons > .button {
+    position: relative !important;
+    width: 47.5% !important;
+    text-align: center !important;
+    justify-content: center !important;
+}

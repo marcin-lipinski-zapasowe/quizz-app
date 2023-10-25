@@ -1,0 +1,31 @@
+.public-quizees-page {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.public-quizees-page > .header {
+    height: 15%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.public-quizees-page > .header > span {
+    height: 15%;
+    font-size: 2.5rem;
+}
+
+.public-quizees-page > .quizzes-preview {
+    height: 75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.public-quizees-page > .quizzes-preview {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+}

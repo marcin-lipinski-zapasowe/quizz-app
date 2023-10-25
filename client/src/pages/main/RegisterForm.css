@@ -1,0 +1,49 @@
+input {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: solid 2px !important;
+    border-color: rgba(0, 0, 0, 0.6) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.ui.button {
+    color: white !important;
+    transition: background-color .5s ease-in-out, color .2s ease-in-out !important;
+}
+
+.field {
+    position: relative !important;
+    background-color: transparent !important;
+    margin-bottom: 0px !important;
+}
+
+.required::after {
+    content: "*" !important;
+    font-size: large;
+    display: inline-block !important;
+    color: red !important;
+    position: absolute !important;
+    left: calc(97%) !important;
+}
+
+.invalid > .input > input{
+    border: solid 1px !important;
+    border-color: rgba(236, 78, 78, 0.9) !important;
+}
+
+.large.icon {
+    left: 0% !important;
+    font-size: 1em !important;
+}
+
+.error-message-wrapper{
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    color: red;
+}
+
+.form-header {
+    background-color: transparent !important;
+    color: #0D1B2A !important;
+}

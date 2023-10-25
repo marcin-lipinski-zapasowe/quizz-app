@@ -1,0 +1,42 @@
+.quizzes-list {
+    width: 60%;
+    margin-left: 20%;
+    height: 80%;
+}
+
+.quizzes-list > .element {
+    border-radius: 20px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #415A77;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.quizzes-list > .element > .element-name {
+    width: 80%;
+    margin-left: 2%;
+}
+
+.quizzes-list > .element > .element-button {
+    width: 10%;
+    margin-right: 2%;
+    background-color: #1B263B !important;
+    color: white;
+    box-shadow: none !important;
+    border-radius: 20px;
+    height: 50%;
+    border: none;
+    transition: all 0.3s ease-in;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.quizzes-list > .element > .element-button:hover {
+    cursor: pointer;
+    background-color: #0D1B2A !important;
+    transform: scale(105%);
+}

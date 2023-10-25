@@ -1,0 +1,52 @@
+.profile-segment {
+    height: 20vh !important;
+    margin-top: 5vh !important;
+    width: 30vw !important;
+    margin-left: 35vw !important;
+    background-color: transparent !important;
+    border-radius: 20px !important;
+    padding: 2% !important;
+    position: relative !important;
+    text-align: center !important;
+}
+
+.profile-segment.menu {
+    height: 54vh !important;
+    margin-top: 7vh !important;
+    width: 35vw !important;
+    margin-left: 32.5vw !important;
+    background-color: #ffffff !important;
+}
+
+.ui.pointing.secondary.menu {
+    height: 20px !important;
+    width: 100% !important;
+    position: relative !important;
+    padding: 0 !important;
+}
+
+.profile-segment.menu > div > a.item {
+    width: calc(100%/3) !important;
+    justify-content: center !important;
+}
+
+.profile-photo {
+    border: black 5px solid !important;
+    height: 150% !important;
+    margin: auto !important;
+    background-color: white !important;
+}
+
+.profile-segment > .header {
+    margin: 10px 0 0 0 !important;
+    color: white !important;
+}
+
+.menu-area-segment {
+    height: 80% !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: auto !important;
+    padding: 0 !important;
+}
