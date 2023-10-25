@@ -1,0 +1,31 @@
+#warning-container {
+    position: fixed !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    width: 100vw !important;
+    height: 8% !important;
+     
+    transition: top 1s ease-in-out;
+    padding:  5px 10px 5px 10px !important;
+}
+
+#warning-container.hidden {
+    top: 100% !important;
+}
+
+#warning-container.visible {
+    top: 92% !important;
+}
+
+#warning-container.success {
+    background-color: rgb(130, 233, 110) !important;   
+}
+
+#warning-container.error {
+    background-color: rgb(255, 90, 117) !important;   
+}
+
+#warning-container .ui.header {
+    color: white !important;
+    margin: 0 0 5px 0 !important
+}

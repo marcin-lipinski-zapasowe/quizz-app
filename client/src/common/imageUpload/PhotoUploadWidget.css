@@ -1,0 +1,14 @@
+.photo-upload-area {
+    height: 80% !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.cropper-drag-box {
+    background-color: white !important;
+}
+
+.cropper-crop-box {
+    border-radius: 20px !important;
+}
